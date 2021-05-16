@@ -16,6 +16,8 @@ Implementation of 1D Convolutional Neural Network for Sentence Classification ba
 - Dropout rate set to 0.5
 - Batch size set to 50 and model trained for 6 epochs.
 
+*CNNPool in the diagram below refers to a set of 3 CNNBlocks. Each CNNBlock consists of a 1D Convolutional layer follwed by a Global Max Pooling Layer. All 3 CNNBlocks have different kernel size and run in parallel.
+
 
 ## KimNet Architechure 
 ![KimNet architecture](assets/kim_architecture.png)
